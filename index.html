@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>MedanTech_27</title>
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+
+    <body>
+        <header>
+            <div class="navbar-fix">
+                <nav>
+                    <div class = "logo">
+                        <img src="img/LOGO.png">
+                    </div>
+
+                    <nav class="login">
+                        <form>
+                             <input type="text" placeholder="Cari Berita" class="search-input" id="search-dong">
+                        </form>
+
+                         <div type="button" class="btv"><img src="img/ic.png"></div>
+        
+                        <b class="opsi-login">  
+                        <div class="menu">
+                            <ul>
+                                <li class="dropdown"><a href="#" class="dr"><img src="img/icd.png"></a>
+                                <ul class="isi-dropdown">
+                                    <li><a href="view/profil.html">About Us</a></li>
+                                    <li><a href="#sc2">Contact Us</a></li>
+                                </ul>
+                                </li>
+                            </ul>
+                        </div>  
+                        </b>
+                    </nav>
+                </nav>
+            </div>    
+        </header>
+
+        <main id="result-list">
+            <section class="section1">
+                <span id="baru" class="News">
+                    <div>
+                        <h1>Berita Terbaru</h1>
+
+                        <div id="berita" class="B">
+
+                        </div>
+                    </div>
+                </span>
+            </section>
+        </main>
+        <footer> 
+            <div class="container">
+                <div class="comment-box gradient-bg" style="background-color: transparent; box-shadow: none;">
+                    <h2 class="comment-title2">Have a question or feedback? We'd love to hear from you! Use the form on the side to get in touch:</h2>
+                </div>
+                <div class="contact">
+                    <h2 class="comment-title">Contact Us</h2>
+                    <form id="komentar-form" method="post" action="">
+                        <div class="form-group">
+                            <input type="text" id="nama" name="nama" placeholder="Enter your name">
+                        </div>
+                        <div class="form-group">
+
+                          <input type="email" id="email" name="email" placeholder="Enter your email">
+                        </div>
+                        <div class="form-group">
+                          <textarea id="komentar" name="message" placeholder="Type your Comment here"></textarea>
+                        </div>
+                        <button type="submit" class="btn-submit" value="Kirim">Submit</button>
+                    </form>
+            </div>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+          <script src="js/script.js"></script>
+          <script src ="./js/index.js"></script>
+    </body>
+</html> 
